@@ -8,6 +8,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin:0;
+    padding:0;
+}
+/* navbar */
 .dark2{
     color:#474747;
 }
@@ -15,7 +20,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 200px;
+    margin:10px 150px;
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -44,5 +49,48 @@ nav ul li{
 
 }
 li a{
+   
     text-decoration: none;
+}
+/* header */
+header{
+    background-image:url("../images/developer.png" ),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+     
+}
+/* banner */
+.banner-greetings{
+font-size: 45px;
+font-weight: 600;
+}
+.banner-title{
+    font-size:85px;
+    font-weight: bold;
+}
+.banner-sub{
+    font-size:16px;
+    font-weight:400px;
+    color:#757575;
+    margin-bottom:20px;
+    line-height: 28px;
+    
+}
+.download{
+    margin-right:20px;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 35px 0 150px;
+    /* background-color:yellow; */
+}
+.banner-info{
+    max-width:500px;
+    margin-top:90px;
+    /* background-color:pink; */
+}
+.banner-profile-pic{
+    width:580px;
 }
