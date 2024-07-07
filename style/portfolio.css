@@ -48,7 +48,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin:10px 150px;
+    margin:0 150px;
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -200,4 +200,40 @@ main section{
     font-weight: normal;
     color:#757575;
    
+}
+/* footer */
+footer{
+    padding:130px 230px;
+    display:flex;
+    gap:100px;
+    
+}
+.footer-info{
+    /* background-color: green; */
+    width:50%;
+}
+.footer-title{
+    /* margin-bottom:20px;   */
+}
+.footer-description
+{
+margin-bottom:30px;
+line-height: 20px;
+}
+.footer-section{
+    display:flex;
+    gap:100px;
+}
+input[type="text"],input[type="email"],textarea{
+    height:40px;
+    display:block;
+    width:100%;
+    border-radius: 5px;
+    padding:5px 15px;
+    background-color: white;
+    border:none;
+    margin: 24px 0px;
+}
+.form-title{
+    
 }
